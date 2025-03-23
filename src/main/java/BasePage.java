@@ -9,6 +9,7 @@ import java.time.Duration;
 public class BasePage {
     protected WebDriver driver;
     private final By charactersLink = By.linkText("Characters");
+    private final By episodesLink = By.linkText("Episodes");
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -41,9 +42,16 @@ public class BasePage {
         button.click();
     }
 
+    //Navbar
     public CharactersPage navigateToCharactersPage() {
         clickButton(charactersLink);
 
         return new CharactersPage(driver);
+    }
+
+    public EpisodesPage navigateToEpisodesPage() {
+        clickButton(episodesLink);
+
+        return new EpisodesPage(driver);
     }
 }
