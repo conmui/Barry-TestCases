@@ -31,6 +31,11 @@
             <version>5.11.4</version>
         </dependency>
         <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.11.0</version>
+        </dependency>
+        <dependency>
             <groupId>com.titusfortner</groupId>
             <artifactId>selenium-logger</artifactId>
             <version>2.4.0</version>

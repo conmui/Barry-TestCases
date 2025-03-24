@@ -20,6 +20,9 @@ public class BaseTest {
     protected final String EPISODES_HEADER = "Episodes";
     protected final String EPISODES_QUOTE = "What?!";
     protected final String EPISODES_QUOTE_REFERENCE = "— Barry Berkman, Barry Season 2: What?!";
+    protected final String FOOTER_CONTENT = "Content from";
+    protected final String FOOTER_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/Barry_(TV_series)";
+    protected final String FOOTER_FANDOM_URL = "https://barry-hbo.fandom.com/wiki/Barry_Wiki";
 
     @BeforeEach
     public void setup() {

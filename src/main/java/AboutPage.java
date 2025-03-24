@@ -10,7 +10,6 @@ public class AboutPage extends BasePage {
     private final By quoteReference = By.className("Quote__reference");
     private final By content = By.className("About__content-description");
     private final By image = By.className("About__image");
-    private final By logo = By.className("Logo");
 
     public AboutPage(WebDriver driver) {
         super(driver);
@@ -68,9 +67,5 @@ public class AboutPage extends BasePage {
 
     public boolean isImageVisible() {
         return isElementVisible(image);
-    }
-
-    public boolean isLogoVisible() {
-        return isElementVisible(logo);
     }
 }
